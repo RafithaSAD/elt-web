@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Titulo-->
+	<title>Empleo los Tuxtlas</title>
+	<!--Favicon-->
+	<link rel="shortcut icon" type="image/jpg" href="https://1.bp.blogspot.com/-zmifDMsukwU/YL-79KSxDII/AAAAAAAABig/GpDqVUO2Qdw6-1Z7cNGRKbbTL1lhdHMTQCLcBGAsYHQ/s40/Logo2.png"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+	<!--CSS-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/buscador.css">
+	<!--Script-->
+    <script src="https://kit.fontawesome.com/67326d0b05.js" crossorigin="anonymous"></script>
+	
+</head>
+<body class="cuerpo-index">
+    <nav>
+        <div class="logo">
+         <a href=""><img src="https://1.bp.blogspot.com/-cgHE2sBMwRM/YL8w1PhC1hI/AAAAAAAABh8/1C8OUUCs3u0ym01PQesmGJmYcfEdvZhngCLcBGAsYHQ/s385/Logo.png" alt=""></a>
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+           <li><a class="active" href="#">Buscador</a></li>
+           <li><a href="Registrar-aspirante.html">Unirse ahora</a></li>
+           <li><a href="#">Iniciar sesión</a></li>
+        </ul>
+     </nav>
+     <div id="contenido" class="contenido">
+        <div class="contenido-caja">
+            <h1>En busca de un empleo</h1>
+			<p class="texto-buscador texto-blanco">Encuentra un trabajo a tu medida</p>
+            <div class="container">
+                <div class="search_wrap search_wrap_1">
+                    <div class="search_box">
+                        <input type="text" class="input" placeholder="Buscar puesto o area de trabajo...">
+                        <div class="btn btn_common">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Filtro ubicacion - salario-->
+            <div class="caja-filtro">
+                <form action="" class="form-filtro">
+                    <p class="p-filtro">
+                        <label class="label-filtro">Salario</label>
+                        <select name="select" class="select-filtro">
+                            <option value="value1">$0-$1,000</option> 
+                            <option value="value2">$1,001-$2,000</option>
+                            <option value="value3">$2,001-$3,000</option>
+                            <option value="value4">$3,001-$4,000</option>
+                        </select>
+                    </p>
+                    <p class="p-filtro">
+                        <label class="label-filtro">Ubicación</label>
+                        <select name="select" class="select-filtro">
+                            <option value="value1">San Andres Tuxtla</option> 
+                            <option value="value2">Santiago Tuxtla</option>
+                            <option value="value3">Catemaco</option>
+                            <option value="value4">Hueyapan de Ocampo</option>
+                        </select>
+                    </p>
+                </form>
+            </div>
+        </div>
+     </div>
+</body>
+</html>

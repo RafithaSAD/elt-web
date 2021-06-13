@@ -1,0 +1,71 @@
+.contenido{
+    min-height: 87vh;
+    bottom: 0;
+	height: auto;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3em 0;
+    z-index: 0;
+}
+
+.contenido .Registrar-opciones{
+    max-width: 90%;
+	height: auto;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	background-color: #0B2545;
+	padding: 1em 1.5em;
+	border-radius: 1em;
+	box-shadow: 7px 8px 18px .1px  rgba(130, 130, 130, .75);
+	position: relative;
+	z-index: 10;
+}
+
+.Registrar-opciones img{
+    width: 40%;
+	margin: auto;
+}
+
+.Registrar-opciones h1{
+    padding-top: 40px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+	padding-right: 7px;
+	color: #c7c7c7;
+	text-align:center;
+	font-size: 17px;
+}
+
+.Registrar-opciones ul{
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.Registrar-opciones ul li{
+    background: #FF6922;
+    padding: 10px;
+    margin: 0 17px;
+    border-radius: 5px;
+}
+
+.Registrar-opciones ul li a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:868px){
+	.contenido{
+		min-height: 70vh;
+	}
+}

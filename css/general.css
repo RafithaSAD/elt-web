@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+.cuerpo-index{
+	background-color: #EEF4ED;
+	/*background-image:url(https://1.bp.blogspot.com/-KKs9ZTAAU9E/YL_7yi8ei4I/AAAAAAAABio/2HpamTjtaV8Yj00Fbz9oR_hbZoz-vO6vQCLcBGAsYHQ/s1366/Rectangle%2B3.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;*/
+}
+
+.cuerpo-formularios{
+	background-color: #EEF4ED;
+}
+
+/*Textos*/
+.texto-blanco{
+	padding: 7px;
+	color: #b1b1b1;
+}
+
+.texto-blanco2{
+	color: #b1b1b1;
+}
+
+.texto-normal{
+	font-size: 11px;
+	text-align: justify;
+}
+
+.enlaces{
+	color: #FF6922;
+	text-decoration: none;
+}
+
+.texto-leyenda{
+	font-size: 15px;
+	text-align: center;
+}
+
+@media screen and (max-width:868px){
+	.cuerpo-index{
+		background-color: #EEF4ED;
+	}
+}
+
